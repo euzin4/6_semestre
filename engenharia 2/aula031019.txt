@@ -21,4 +21,4 @@ ordem natural e lógica.
 emergência, claramente marcada e sem ter que passar por um dialogo extenso. Ter fuções de desfazer e refazer.
 -Consistencia e padroes: Os usuários não devem duvidar se, palavras situações ou ações diferentes significam a mesma coisa. Siga
 as convenções da plataforma.
--Prevenção de erros: 
+-Prevenção de erros: Melhor do que boas mensagens de erro é projetar e prevenir que um problema ocorraprimeiro lugar.
