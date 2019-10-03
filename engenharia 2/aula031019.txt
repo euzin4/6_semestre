@@ -1,0 +1,24 @@
+*Usabilidade: foca em um conjunto de regras e boas praticas que avaliam como os usuarios aprendem e usam um produto para atingir
+seus objetivos. 
+  Usabilidade avalia também a satisfação dos usuários durante esse processo, para obter a informação necessaria.
+  De acordo com jakob nielsen usabilidade define-se em cinco componentes qualitativas.
+-Aprendizagem: Quão fácil é para os usuários a realização de tarefas básicas na primeira vez que encontram o design?
+-Eficiência: Depois que os usuários aprendem, com que rpidez conseguem realizar as tarefas?
+-Reminiscência: Quando os usuários voltam ao projeto após um periodo sem interagir com o mesmo, com que facilidade consegue 
+restabelecer proficiência?
+-Erros: Quantos usuários erram?, Quão graves são esses erros?, e Quão facilmente conseguem recuperar os erros?
+-Satisfação: Quão agradável é usar o design?, de uma perspectiva de engenharia de software, usabilidade está interligada dentro
+de qualidade. Busca a eficácia e eficiência de operação de um sistema.(ser eficaz é fazer as coisas certas com menos erros, ser 
+eficiente é fazer as coisas corretamente em menos tempo).
+-Componentes de avaliação heuristicas de usabilidade: Em usabilidade uma avaliação heurística é um método rápido e mais barato 
+de melhorar um sistema.
+-Visibilidade do status do sistema: O sistema deve sempre manter os usuários informados sobre o que está acontecendo, através do 
+feedback apropriado dentro de um prazo razoavel.
+-Correspondência entre o sistema e o mundo real: O sistema deve falar a linguagem dos usuários. Com palavras fáceis e conceitos 
+familiares ao usuário, em vez de termos orientados pelo sistema. Siga as convenções do mundo real, apresentando informações numa
+ordem natural e lógica.
+-Controle do usuário e liberdade: Usuários que eventualmente escolhem funções do sistema por engano precisarão de uma saida de 
+emergência, claramente marcada e sem ter que passar por um dialogo extenso. Ter fuções de desfazer e refazer.
+-Consistencia e padroes: Os usuários não devem duvidar se, palavras situações ou ações diferentes significam a mesma coisa. Siga
+as convenções da plataforma.
+-Prevenção de erros: 
