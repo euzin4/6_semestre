@@ -1,0 +1,5 @@
+*caso de uso (exemplo 1):
+A clinica medica saude perfeita precisa de um sistema de agendamento de consultas e exames. Um paciente entra em contato com a 
+clinica para marcar consultas visando realizar um check-up anual com seu médico de preferência. A recepcionista procura data e 
+hora disponiveis mais proxima na agenda do médico e marca as consultas. Posteriormente o paciente realiza a consulta e nela o 
+médico pode prescrever medicações e exames, caso necessario. Defina: atores, casos e comunicação entre eles.
