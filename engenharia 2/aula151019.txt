@@ -3,3 +3,32 @@ A clinica medica saude perfeita precisa de um sistema de agendamento de consulta
 clinica para marcar consultas visando realizar um check-up anual com seu médico de preferência. A recepcionista procura data e 
 hora disponiveis mais proxima na agenda do médico e marca as consultas. Posteriormente o paciente realiza a consulta e nela o 
 médico pode prescrever medicações e exames, caso necessario. Defina: atores, casos e comunicação entre eles.
+---------
+*Diagrama de pacotes: Um pacote é um conjunto de elementos agrupados. Esses elementos podem ser classes, diagramas, ou até mesmo 
+outros pacotes.
+-Modelo 3 camadas
+Apresentação: janelas/interfaces/relatórios
+Dominio/aplicação:
+Armazenamento:
+                      _______
+                     |_______\________
+                     |                |
+                     |  interface     |
+                     |________________|
+                              |
+                              |
+                             \/
+                      _______
+                     |_______\________
+                     |                |
+                     |    lógico      |
+                     |________________|
+                              |
+                              |
+                             \/
+                      _______
+                     |_______\________
+                     |                |
+                     |    Banco       |
+                     |________________|
+                     
