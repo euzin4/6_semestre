@@ -1,0 +1,62 @@
+*Diagrama de atividades
+  Um diagrama de atividade ilustra a natureza dinamica de um sistema pela modelagem do fluxo de controle de atividade 
+à atividade. Uma atividade representa uma ação em uma classe do sistema que resulta em um a mudança no estado do 
+sistema. Tipicamente, diagramas de atividades são usados para modelar fluxos de processos, processos de negócio ou operações
+internas o diagrama de atividades é similar a uma máquina de estados, mas tem um propósito diferente , o qual envolve capturar 
+ações e seus resultados em termos de mudanças do estado do objeto. O diagrama de atividades é representado por um gráfico de 
+atividade que mostram o fluxo de uma atividade para outra esse fluxo é mostrado através de transições que são setas 
+direcionadas, mostrando o caminho entre os estados da atividade.
+  Diagramas de ativades, junto com diagramas de casos de uso e máquina de estados, são considerados diagramas de comportamento
+porque descrevem o que é necessário acontecer no sistema sendo modelado.
+
+-Beneficios do diagrama de atividade:
+>demonstrar a lógica de um algoritmo
+>descrever as etapas realizadas em um caso de uso
+>ilustrar um processo de negócio ou fluxo de trabalho entre usuário e sistema 
+>simplificar e melhorar qualquer processo e esclarecer casos de uso complicados
+>modelar elementos de arquitetura de software, como método, função e operação
+
+-Componentes básicos de um diagrama de atividade
+>Ações: Uma etapa da atividade em que o usuário ou software realiza uma determinada tarefa.
+>Nó de decisão: Um ramo condicional no fluxo representado por um diamante, inclui uma única entrada e duas ou mais saídas.
+>Fluxos de controle: Outro nome dado aos conectores que mostram o fluxo entre as etapas do diagrama.
+>Nó inicial: Simboliza o inicio da atividade.
+>Nó final: Simboliza o fim da atividade.
+EX: fazer login
+
+ _________________
+|   insere login  |
+|         e       |  <-----------------                   
+|      senha      |                    |
+|_________________|                    |
+         |                             |
+         |                             |
+         \/                            |
+         /\                            |
+       /    \                          |
+     /  login \                        |
+   /  e senha   \              _________________
+   \   estão    /     não     |                 |
+     \corretos/    -------->  |    login        |
+       \    /                 |    inválido     |
+         \/                   |_________________|
+         |  
+         |  sim
+         \/
+ _________________
+|                 |
+|  login válido   |
+|                 | 
+|_________________|
+         |  
+         |  
+         \/ 
+ _________________
+|                 |
+| página inicial  |
+|                 | 
+|_________________|          
+         |  
+         |  
+        / \
+        \ / 
