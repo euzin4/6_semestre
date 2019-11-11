@@ -1,0 +1,4 @@
+https://www.devmedia.com.br/php-e-mysql-conectando-e-exibindo-dados-de-forma-rapida-dica/28526
+
+consulta:
+select partidas.id_equipe1, partidas.id_equipe2, partidas.pontos_equipe1, partidas.pontos_equipe2 FROM partidas;
