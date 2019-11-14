@@ -1,0 +1,31 @@
+Helippa backend
+
+- Clone o repositório em sua pasta de preferência
+
+$ git clone https://github.com/MacPardo/ESII-backend.git && cd ESII-backend
+
+- Instale as dependências
+
+$ npm install
+-------------------------
+$ git checkout testing
+$ sudo snap install insomnia
+$ sudo npm install -g npx
+-------------------------
+
+- Abra o arquivo /config/database.js Certifique-se que usuário, senha, host e porta são configuradas de acordo com a configuração do postgres no seu pc
+
+- Criando o banco Na pasta raíz do projeto, e com o postgres rodando, execute os comandos:
+
+$ npx sequelize db:create
+
+$ npx sequelize db:migrate
+--------------------------
+npx sequelize db:seed:all
+--------------------------
+
+Estes comandos devem criar o banco e migrar a estrutura dele, respectivamente
+
+- Executando a api (dev) Na pasta raíz do projeto, execute o comando:
+
+$ npm run dev
