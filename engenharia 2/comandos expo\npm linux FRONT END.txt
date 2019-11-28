@@ -1,0 +1,10 @@
+-Em uma pasta de preferencia:
+git clone "link do git"
+git checkout testing (muda para o branch testing)
+git pull (atualiza os arquivos que estavam na pasta(caso precise))
+-Na pasta do projeto:
+sudo npm install -g expo-cli
+npm install
+npm install react-navigation
+npm install axios
+sudo npm start
