@@ -6,7 +6,7 @@ DIAGRAMA DE TEMPO
   Tipicamente os diagramas de tempo demonstram mudanças no estado de um objeto no tempo em resposta a eventos externos.
                     |<-{05/01}...{31/01}->|<-{01/02}...{31/03}->|<-{10/04}->|<-{12/04}...{30/04}->|<-{03/05}
   concurso:
-  elaborando edital ______________________
+  elaborando edital  _____________________
                             abrindo seções|_____________________
                                       aplicando prova de seleção|___________
                                                             avaliando provas|_____________________
@@ -21,3 +21,25 @@ DIAGRAMA DE MÁQUINA DE ESTADOS
 -A reação a um estímulo
 -A execução de uma atitude
 -A satisfação de alguma condição
+Ex: cadastro de pessoas:
+        ___________________                                   ____________________________
+o----->|consultando pessoas|                [se encontrar]   |apresentando dados da pessoa|
+        -------------------   __________/\ _________________  ----------------------------
+       |    con CPF()      |            \/                   |                            |
+        -------------------              |                    ----------------------------
+                                         |                                  |
+                                         |[não encontrado]                  |
+                                         |                                  |
+                             0__________/\<_________________________________|
+                                        \/
+                                         |
+                                         |[e se necessário incluir ou alterar]
+                                         |
+                                        \/
+                             ___________________________________                _________________
+                            |alterando/incluindo dados da pessoa|              | recebendo dados |
+                             -----------------------------------  ____________> -----------------  ________>0
+                            |                                   |              |    val CPF()    |
+                             -----------------------------------                -----------------
+                          
+exercicio:faça um diagrama de máquina de estados para atualizar os preços dos combustíveis.
