@@ -28,7 +28,7 @@ o----->|consultando pessoas|                [se encontrar]   |apresentando dados
        |    con CPF()      |            \/                   |                            |
         -------------------              |                    ----------------------------
                                          |                                  |
-                                         |[não encontrado]                  |
+                         [não encontrado]|                                  |
                                          |                                  |
                              0__________/\<_________________________________|
                                         \/
@@ -53,3 +53,21 @@ DIAGRAMA DE SEQUÊNCIA
 -Fragmentos:são "caixas no diagrama que utilizamos para tratar estruturas condicionais (if/else) loops... ;
 -Mensagens:informações trocadas entre os objetos.
 @imagem 1.1(caderno)agendar consulta;
+*exercicio: faça o diagrama de sequencia para a compra de dinheiro virtual.
+
+DIAGRAMA DE CLASSES
+  Uma classe é uma abstração de um objeto da vida real que agrupa dados (atributos) e procedimentos (operações) relacionados ao seu contexto.
+  Um diagrama de classes é uma representação da estrutura e relações das classes que servem de modelo para os objetos associações.
+  Ao modelar um sistema, certos objetos estarão relacionados entre sí e esses relacionamentos precisam ser modelados.
+-Associação bidirecional: Uma associação é uma ligação entre duas classes nas extremidades você pode colocar a multiplicidade.
+multiplicidade:
+0...1   zero ou um
+1       um
+0...*   zero ou muitos
+*       muitos
+1...*   um ou muitos
+5...15  cinco ou quinze
+
+-Generalização(herança): é um tipo de relacionamento onde a classe generalizada fornece recursos para a classe especializada(a classe filha 'herda' caracteristicas da classe mãe(generalizada)).
+-Composição: é um tipo de relacionamento onde a classe composta depende de outras classes para existir. Por ex: a classe corpo humano depende da classe coração para existir.
+-Agregação: é um tipo de relação onde a classe agregada usa outra classe para existir mas pode viver sem ela. Por ex: classe corpo humano e classe mão.
