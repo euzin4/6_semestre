@@ -42,4 +42,14 @@ o----->|consultando pessoas|                [se encontrar]   |apresentando dados
                             |                                   |              |    val CPF()    |
                              -----------------------------------                -----------------
                           
-exercicio:faça um diagrama de máquina de estados para atualizar os preços dos combustíveis.
+*exercicio:faça um diagrama de máquina de estados para atualizar os preços dos combustíveis.
+
+DIAGRAMA DE SEQUÊNCIA
+  O diagrama de sequência representa o fluxo e a ordem das mensagens trocadas entre os objetos. Um diagrama de sequência descreve como um grupo de objetos colaboram em algum comportamento ao longo do tempo.
+*Um software nada mais é do que um conjunto de funcionalidades, que possuem uma relação lógica entre elas e interagem entre si através da troca de mensagens (mensagens estas que são representadas no diagrama de sequência).
+-Atores: são entidades externas que interagem com o sistema.
+-Objetos: representam as instancias de uma classe.
+-Linhas devida: É a instancia de um objeto, de onde partem e/ou chegam chamadas.
+-Fragmentos:são "caixas no diagrama que utilizamos para tratar estruturas condicionais (if/else) loops... ;
+-Mensagens:informações trocadas entre os objetos.
+@imagem 1.1(caderno)agendar consulta;
