@@ -7,7 +7,17 @@ DIAGRAMA DE TEMPO
                     |<-{05/01}...{31/01}->|<-{01/02}...{31/03}->|<-{10/04}->|<-{12/04}...{30/04}->|<-{03/05}
   concurso:
   elaborando edital ______________________
-                           abrindo zerções|_____________________
+                            abrindo seções|_____________________
                                       aplicando prova de seleção|___________
                                                             avaliando provas|_____________________
                                                                               avaliando resultados|_________
+
+DIAGRAMA DE MÁQUINA DE ESTADOS
+  É um diagrama comportamental que procura acompanhar as mudanças sofridas nos estados de uma instância de uma determinada classe.
+  Procurar demonstrar o comportamento de um elemento por meio de transições de estado. O elemento modelado muitas vezes é uma instância de uma classe, no entanto, pode-se usar esse diagrama para modelar o comportamento de um caso de uso, o comportamento de um dado durante uma transação ou mesmo o comportamento de um sistema completo.
+*Estado:
+  Um estado representa a situação em que o objeto se encontra em determinado momento durante o período que este participa de um processo. Um objeto pode passar por diversos estados dentro de um processo. Um estado pode demonstrar:
+-A espera pela ocorrência de um evento
+-A reação a um estímulo
+-A execução de uma atitude
+-A satisfação de alguma condição
